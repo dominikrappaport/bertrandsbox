@@ -50,7 +50,7 @@ $$ P(\text{"first coin is golden and second coin is golden"}) = \frac{2}{6} = \f
 
 The (conditional) probability we are looking for is
 
-$$ P(\text{"second coin is golden"} \, \vert \, \text{"first coin is golden"}) = 
+$$ P(\text{"second coin is golden"} \vert \text{"first coin is golden"}) = 
 \frac{P(\text{"first coin is golden and second coin is golden"})}{P(\text{"first coin is golden"})} = 
 \frac{\frac{1}{3}}{\frac{1}{2}} = \frac{2}{3}.$$
 
