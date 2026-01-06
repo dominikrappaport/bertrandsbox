@@ -38,7 +38,7 @@ six selections are possible:
 | 3   | 6          | 5           | Silver, Silver |
 
 All six sequences are equally likely. You will also notice that once you selected the first coin, the second coin
-is is fully determined as we need to take it out of the same box as the first one.
+is fully determined as we need to take it out of the same box as the first one.
 
 Now let's consider the following two events:
 
