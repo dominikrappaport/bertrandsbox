@@ -7,7 +7,7 @@ Dominik Rappaport, dominik@rappaport.at
 ## Introduction
 
 In probability therory we often encounter so-called paradoxes. These are specially constructed experiments whose
-result are not aligned to what you would expect. On of them is Bertrand's box paradox.
+results are not aligned to what you would expect. On of them is Bertrand's box paradox.
 
 ## Experiment
 
@@ -16,7 +16,7 @@ golden and one silver coin, and in the third box there are two silver coins. In 
 boxes and blindly take out one coin. Suppose that coin is golden. What is the probability that the other coin in the
 same box is also golden?
 
-Many people, and I am one of them, think the answer is $\frac{1}{2}$. The intuition is that once you know you picked a
+Many people, and I was one of them, think the answer is $\frac{1}{2}$. The intuition is that once you know you picked a
 golden coin, you know you selected the first or the second box, for the third one doesn't contain any golden coins. If 
 you picked box 1, the second coin is golden, and if you picked box 2, the second coin is silver. As both options
 are equally likely, the probability for a second golden coin seems to be $\frac{1}{2}$. In reality though, the 
@@ -53,6 +53,13 @@ The (conditional) probability we are looking for is
 $$ P(\text{"second coin is golden"} \vert \text{"first coin is golden"}) = 
 \frac{P(\text{"first coin is golden and second coin is golden"})}{P(\text{"first coin is golden"})} = 
 \frac{\frac{1}{3}}{\frac{1}{2}} = \frac{2}{3}.$$
+
+## Interpretation
+
+If you consider the table, the probability of $\frac{2}{3}$ becomes clear. There are three sequences with the
+first coin being golden and out of these three, the second coin is golden in exactly two of them. The mistake
+you intuitively make is to miss that you can get two golden coins in two ways. Drawing coin 1 and then 2 or, 
+coin 2 and then 1.
 
 ## Simulation
 
